@@ -1,0 +1,12 @@
+{
+	"name": "serverless-rest-api",
+	"dependencies": {
+		"async": "^2.6.1",
+		"aws-sdk": "^2.258.1",
+		"fs": "0.0.1-security",
+		"uuid": "^3.2.1"
+	},
+	"devDependencies": {
+		"serverless-mocha-plugin": "^1.8.3"
+	}
+}

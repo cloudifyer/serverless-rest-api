@@ -1,0 +1,40 @@
+service: serverless-rest-api
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+
+plugins:
+  - serverless-mocha-plugin
+
+functions:
+  readuser:
+    handler: handler.readuser
+    events:
+      - http:
+          path: randomusers/readuser
+          method: get
+  listusers:
+    handler: handler.listusers
+    events:
+      - http:
+          path: randomusers/listusers
+          method: get
+  adduser:
+    handler: handler.adduser
+    events:
+      - http:
+          path: randomusers/adduser
+          method: post
+  updateuser:
+    handler: handler.updateuser
+    events:
+      - http:
+          path: randomusers/updateuser
+          method: post
+  deleteuser:
+    handler: handler.deleteuser
+    events:
+      - http:
+          path: randomusers/deleteuser
+          method: delete          
