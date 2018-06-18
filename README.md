@@ -3,18 +3,20 @@
 This project exposes a CRUD API developed using serverless framework and AWS Lambda service. It uses AWS Dynamodb as a data store for the user data.
 
 ## API Documentation:
+Postman is used to generate the API spec:
 https://documenter.getpostman.com/view/4628980/random-users-api/RWEfMyoC
 
 ### Installing
 Clone the repo, and run **npm install**
-Update the app_config.json file with the corresponding values for *region*, *endpoint*, *tableName*, *accessKeyId*, and *secretAccessKey*
+Update the app_config.json file with the corresponding values for *region*, *endpoint*, *tableName*, *accessKeyId*, and *secretAccessKey*.
+
 Create a table in AWS Dynamodb called **users** with the primary key as **email** and following structure:
 * **email (String)**
 * **gender (String)**
 * **name Map{3}**
-    * **:first (String)**
-    * **:last (String)**
-    * **:salutation (String)**
+    * **first (String)**
+    * **last (String)**
+    * **salutation (String)**
 
 
 ## Running the tests
@@ -34,7 +36,7 @@ Run the following command to deploy the app as a lambda service:
 
 ## Authors
 
-* **Srinivas Maroju** - [srinivasmarojusrepo](https://github.com/cloudifyer)
+* **Srinivas Maroju** - [cloudifyer](https://github.com/cloudifyer)
 
 ## License
 
