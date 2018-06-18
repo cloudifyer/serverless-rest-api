@@ -6,6 +6,8 @@ This project exposes a CRUD API developed using serverless framework and AWS Lam
 https://documenter.getpostman.com/view/4628980/random-users-api/RWEfMyoC
 
 ### Installing
+Clone the repo, and run **npm install**
+Update the app_config.json file with the corresponding values for *region*, *endpoint*, *tableName*, *accessKeyId*, and *secretAccessKey*
 Create a table in AWS Dynamodb called **users** with the primary key as **email** and following structure:
 * **email (String)**
 * **gender (String)**
@@ -13,6 +15,7 @@ Create a table in AWS Dynamodb called **users** with the primary key as **email*
     * **:first (String)**
     * **:last (String)**
     * **:salutation (String)**
+
 
 ## Running the tests
 This uses serverless-mocha plugin for testing. 
@@ -31,7 +34,7 @@ Run the following command to deploy the app as a lambda service:
 
 ## Authors
 
-* **Srinivas Maroju** - *Initial work* - [srinivasmarojusrepo](https://github.com/srinivasmarojusrepo)
+* **Srinivas Maroju** - [srinivasmarojusrepo](https://github.com/cloudifyer)
 
 ## License
 
