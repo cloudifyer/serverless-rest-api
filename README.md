@@ -31,13 +31,5 @@ Run the following command to deploy the app as a lambda service:
 
 * [Serverless](https://serverless.com/) - The web framework used
 * [NPM](https://maven.apache.org/) - Dependency Management
-* [AWS Lambda](https://console.aws.amazon.com/lambda) - AWS serverless cloud Infrastructure
-* [AWS Dynamodb](https://console.aws.amazon.com/dynamodb) - AWS fully managed NoSQL database
-
-## Authors
-
-* **Srinivas Maroju** - [cloudifyer](https://github.com/cloudifyer)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+* [AWS Lambda](https://console.aws.amazon.com/lambda) - AWS serverless cloud Infrastructure service
+* [AWS Dynamodb](https://console.aws.amazon.com/dynamodb) - AWS fully managed NoSQL database service
