@@ -2,6 +2,6 @@
   "region": "us-east-1",
   "enpoint" :"https://dynamodb.us-east-1.amazonaws.com",
   "tableName" : "users",
-  "accessKeyId": "AKIAI53PWCBMQVRBSSBA",
-  "secretAccessKey": "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"
+  "accessKeyId": <access-key-id>,
+  "secretAccessKey": <secret-access-key>
 }
