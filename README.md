@@ -2,10 +2,6 @@
 
 This project exposes a CRUD API developed using serverless framework and AWS Lambda service. It uses AWS Dynamodb as a data store for the user data.
 
-## API Documentation:
-Postman is used to generate the API spec:
-https://documenter.getpostman.com/view/4628980/random-users-api/RWEfMyoC
-
 ### Installing
 Clone the repo, and run **npm install**
 Update the app_config.json file with the corresponding values for *region*, *endpoint*, *tableName*, *accessKeyId*, and *secretAccessKey*.
